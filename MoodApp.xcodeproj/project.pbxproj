@@ -22,6 +22,8 @@
 		7413F6321DA41DDB00EED4A7 /* Mood+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7413F62F1DA41DDB00EED4A7 /* Mood+CoreDataClass.swift */; };
 		7413F6331DA41DDB00EED4A7 /* Mood+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7413F6301DA41DDB00EED4A7 /* Mood+CoreDataProperties.swift */; };
 		7413F6341DA41DDB00EED4A7 /* Mood+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7413F6301DA41DDB00EED4A7 /* Mood+CoreDataProperties.swift */; };
+		7413F6361DA41FB700EED4A7 /* MoodListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7413F6351DA41FB700EED4A7 /* MoodListViewController.swift */; };
+		7413F6371DA41FB700EED4A7 /* MoodListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7413F6351DA41FB700EED4A7 /* MoodListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,7 @@
 		7413F62C1DA3967700EED4A7 /* ManagedObjectContextSettable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagedObjectContextSettable.swift; sourceTree = "<group>"; };
 		7413F62F1DA41DDB00EED4A7 /* Mood+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Mood+CoreDataClass.swift"; sourceTree = "<group>"; };
 		7413F6301DA41DDB00EED4A7 /* Mood+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Mood+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7413F6351DA41FB700EED4A7 /* MoodListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoodListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,7 @@
 				7413F6081DA3911A00EED4A7 /* Info.plist */,
 				7413F6001DA3911A00EED4A7 /* MoodApp.xcdatamodeld */,
 				7413F62C1DA3967700EED4A7 /* ManagedObjectContextSettable.swift */,
+				7413F6351DA41FB700EED4A7 /* MoodListViewController.swift */,
 			);
 			path = MoodApp;
 			sourceTree = "<group>";
@@ -227,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7413F5FC1DA3911A00EED4A7 /* RootViewController.swift in Sources */,
+				7413F6361DA41FB700EED4A7 /* MoodListViewController.swift in Sources */,
 				7413F5FA1DA3911A00EED4A7 /* AppDelegate.swift in Sources */,
 				7413F62A1DA3933A00EED4A7 /* ManagedObject.swift in Sources */,
 				7413F62D1DA3967700EED4A7 /* ManagedObjectContextSettable.swift in Sources */,
@@ -243,6 +248,7 @@
 				7413F62E1DA3967700EED4A7 /* ManagedObjectContextSettable.swift in Sources */,
 				7413F62B1DA3933A00EED4A7 /* ManagedObject.swift in Sources */,
 				7413F6321DA41DDB00EED4A7 /* Mood+CoreDataClass.swift in Sources */,
+				7413F6371DA41FB700EED4A7 /* MoodListViewController.swift in Sources */,
 				7413F6341DA41DDB00EED4A7 /* Mood+CoreDataProperties.swift in Sources */,
 				7413F6121DA3911A00EED4A7 /* MoodAppTests.swift in Sources */,
 			);

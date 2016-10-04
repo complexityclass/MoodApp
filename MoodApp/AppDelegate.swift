@@ -15,8 +15,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+    func application(_ application: UIApplication,
+                     didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        guard var contextSettableController = window?.rootViewController as? ManagedObjectContextSettable else {
+            fatalError("Wrong view controller")
+        }
+        
+        contextSettableController.managedObjectContext = persistentContainer.viewContext
+        
+        
         return true
     }
 
