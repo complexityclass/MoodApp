@@ -11,6 +11,10 @@ import CoreData
 
 class RootViewController: UIViewController, ManagedObjectContextSettable {
     
+    enum SegueIdentifier: String {
+        case embedNavigation = "embedNavigationController"
+    }
+    
     var managedObjectContext: NSManagedObjectContext!
 
     override func viewDidLoad() {
@@ -29,8 +33,7 @@ class RootViewController: UIViewController, ManagedObjectContextSettable {
         switch segue.identifier! {
         case "MoodListSegue":
             
-            guard
-                let navigationController = segue.destination as? UINavigationController,
+            guard let navigationController = segue.destination as? UINavigationController,
                 var viewController = navigationController.viewControllers.first as? ManagedObjectContextSettable
             else {
                 fatalError("wrong controller type")
@@ -41,4 +44,3 @@ class RootViewController: UIViewController, ManagedObjectContextSettable {
         }
     }
 }
-

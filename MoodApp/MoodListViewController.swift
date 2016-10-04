@@ -34,5 +34,4 @@ class MoodListViewController: UIViewController, ManagedObjectContextSettable {
         // Pass the selected object to the new view controller.
     }
     */
-
 }
