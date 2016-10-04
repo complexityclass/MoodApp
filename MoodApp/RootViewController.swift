@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import CoreData
 
-class ViewController: UIViewController {
+class RootViewController: UIViewController, ManagedObjectContextSettable {
+    
+    var managedObjectContext: NSManagedObjectContext!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        view.backgroundColor = UIColor.blue
     }
 
     override func didReceiveMemoryWarning() {

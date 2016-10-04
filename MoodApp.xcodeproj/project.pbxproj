@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		7413F5FA1DA3911A00EED4A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7413F5F91DA3911A00EED4A7 /* AppDelegate.swift */; };
-		7413F5FC1DA3911A00EED4A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7413F5FB1DA3911A00EED4A7 /* ViewController.swift */; };
+		7413F5FC1DA3911A00EED4A7 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7413F5FB1DA3911A00EED4A7 /* RootViewController.swift */; };
 		7413F5FF1DA3911A00EED4A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7413F5FD1DA3911A00EED4A7 /* Main.storyboard */; };
 		7413F6021DA3911A00EED4A7 /* MoodApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7413F6001DA3911A00EED4A7 /* MoodApp.xcdatamodeld */; };
 		7413F6041DA3911A00EED4A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7413F6031DA3911A00EED4A7 /* Assets.xcassets */; };
 		7413F6071DA3911A00EED4A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7413F6051DA3911A00EED4A7 /* LaunchScreen.storyboard */; };
 		7413F6121DA3911A00EED4A7 /* MoodAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7413F6111DA3911A00EED4A7 /* MoodAppTests.swift */; };
+		7413F62A1DA3933A00EED4A7 /* ManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7413F6291DA3933A00EED4A7 /* ManagedObject.swift */; };
+		7413F62B1DA3933A00EED4A7 /* ManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7413F6291DA3933A00EED4A7 /* ManagedObject.swift */; };
+		7413F62D1DA3967700EED4A7 /* ManagedObjectContextSettable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7413F62C1DA3967700EED4A7 /* ManagedObjectContextSettable.swift */; };
+		7413F62E1DA3967700EED4A7 /* ManagedObjectContextSettable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7413F62C1DA3967700EED4A7 /* ManagedObjectContextSettable.swift */; };
+		7413F6311DA41DDB00EED4A7 /* Mood+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7413F62F1DA41DDB00EED4A7 /* Mood+CoreDataClass.swift */; };
+		7413F6321DA41DDB00EED4A7 /* Mood+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7413F62F1DA41DDB00EED4A7 /* Mood+CoreDataClass.swift */; };
+		7413F6331DA41DDB00EED4A7 /* Mood+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7413F6301DA41DDB00EED4A7 /* Mood+CoreDataProperties.swift */; };
+		7413F6341DA41DDB00EED4A7 /* Mood+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7413F6301DA41DDB00EED4A7 /* Mood+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +37,7 @@
 /* Begin PBXFileReference section */
 		7413F5F61DA3911A00EED4A7 /* MoodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7413F5F91DA3911A00EED4A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7413F5FB1DA3911A00EED4A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7413F5FB1DA3911A00EED4A7 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		7413F5FE1DA3911A00EED4A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7413F6011DA3911A00EED4A7 /* MoodApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoodApp.xcdatamodel; sourceTree = "<group>"; };
 		7413F6031DA3911A00EED4A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +46,10 @@
 		7413F60D1DA3911A00EED4A7 /* MoodAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7413F6111DA3911A00EED4A7 /* MoodAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodAppTests.swift; sourceTree = "<group>"; };
 		7413F6131DA3911A00EED4A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7413F6291DA3933A00EED4A7 /* ManagedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagedObject.swift; sourceTree = "<group>"; };
+		7413F62C1DA3967700EED4A7 /* ManagedObjectContextSettable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagedObjectContextSettable.swift; sourceTree = "<group>"; };
+		7413F62F1DA41DDB00EED4A7 /* Mood+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Mood+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7413F6301DA41DDB00EED4A7 /* Mood+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Mood+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +91,15 @@
 		7413F5F81DA3911A00EED4A7 /* MoodApp */ = {
 			isa = PBXGroup;
 			children = (
+				7413F6221DA3929200EED4A7 /* Entities */,
 				7413F5F91DA3911A00EED4A7 /* AppDelegate.swift */,
-				7413F5FB1DA3911A00EED4A7 /* ViewController.swift */,
+				7413F5FB1DA3911A00EED4A7 /* RootViewController.swift */,
 				7413F5FD1DA3911A00EED4A7 /* Main.storyboard */,
 				7413F6031DA3911A00EED4A7 /* Assets.xcassets */,
 				7413F6051DA3911A00EED4A7 /* LaunchScreen.storyboard */,
 				7413F6081DA3911A00EED4A7 /* Info.plist */,
 				7413F6001DA3911A00EED4A7 /* MoodApp.xcdatamodeld */,
+				7413F62C1DA3967700EED4A7 /* ManagedObjectContextSettable.swift */,
 			);
 			path = MoodApp;
 			sourceTree = "<group>";
@@ -97,6 +111,16 @@
 				7413F6131DA3911A00EED4A7 /* Info.plist */,
 			);
 			path = MoodAppTests;
+			sourceTree = "<group>";
+		};
+		7413F6221DA3929200EED4A7 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				7413F62F1DA41DDB00EED4A7 /* Mood+CoreDataClass.swift */,
+				7413F6301DA41DDB00EED4A7 /* Mood+CoreDataProperties.swift */,
+				7413F6291DA3933A00EED4A7 /* ManagedObject.swift */,
+			);
+			name = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,9 +226,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7413F5FC1DA3911A00EED4A7 /* ViewController.swift in Sources */,
+				7413F5FC1DA3911A00EED4A7 /* RootViewController.swift in Sources */,
 				7413F5FA1DA3911A00EED4A7 /* AppDelegate.swift in Sources */,
+				7413F62A1DA3933A00EED4A7 /* ManagedObject.swift in Sources */,
+				7413F62D1DA3967700EED4A7 /* ManagedObjectContextSettable.swift in Sources */,
+				7413F6311DA41DDB00EED4A7 /* Mood+CoreDataClass.swift in Sources */,
 				7413F6021DA3911A00EED4A7 /* MoodApp.xcdatamodeld in Sources */,
+				7413F6331DA41DDB00EED4A7 /* Mood+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +240,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7413F62E1DA3967700EED4A7 /* ManagedObjectContextSettable.swift in Sources */,
+				7413F62B1DA3933A00EED4A7 /* ManagedObject.swift in Sources */,
+				7413F6321DA41DDB00EED4A7 /* Mood+CoreDataClass.swift in Sources */,
+				7413F6341DA41DDB00EED4A7 /* Mood+CoreDataProperties.swift in Sources */,
 				7413F6121DA3911A00EED4A7 /* MoodAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
